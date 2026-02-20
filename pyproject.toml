@@ -1,0 +1,15 @@
+[project]
+name = "time-r1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.17"
+dependencies = [
+    "decord>=0.6.0",
+    "numba==0.61.2",
+    "setuptools>=82.0.0",
+    "torch==2.6.0",
+    "transformers==4.51.1",
+    "trl==0.17.0",
+    "vllm==0.8.4",
+]
